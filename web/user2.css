@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: popins;
+}
+body
+{
+	background-color: #ccb35b;
+}
+
+.navbar
+{
+    
+width:100%;
+float:right;
+padding:8px;
+padding-right:40px;
+background-color:#f4ead7;
+border : 2px solid black;
+color: black;
+}
+.navbar a
+{
+    font-family: Garamond;
+    color:black;
+    font-weight:bold;
+font-size:20px;
+padding-right:50px;
+text-decoration:none;
+}
+.navbar a:hover
+{
+	color:red;
+}
+
+.container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	background-color: white;
+	padding: 40px;
+	
+	box-shadow:  0 50px 50px -1px darkslategrey;
+}
+
+.user
+{
+   width: 270px;
+   margin-right: 30px;
+}
+
+div.container div.user h2
+{
+	color: black;
+	margin-bottom: 20px ;
+
+}
+div.container div.user input
+{
+	border: none;
+	outline: none;
+	border-radius: 0;
+	width: 100%;
+	border-bottom: 2px solid  #1c1c1e;
+	margin-bottom: 25px;
+	padding: 9px 0;
+	font-size: 17px;
+}
+div.container div.user button
+{
+	color: white;
+	background-color: #1c1c1e;
+	border: none;
+	outline: none;
+	border-radius: 3p;
+	font-size: 14px;
+	padding: 2px 30px;
+}
+
+
+
+
+
